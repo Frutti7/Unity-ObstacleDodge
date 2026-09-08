@@ -1,9 +1,9 @@
 using UnityEngine;
 
 public class Mover : MonoBehaviour {
-    private float xValue = 0f;
-    private float yValue = 0f;
-    private float zValue = 0f;
+    [SerializeField] private float xValue = 0f;
+    [SerializeField] private float yValue = 0.004f;
+    [SerializeField] private float zValue = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
     }
