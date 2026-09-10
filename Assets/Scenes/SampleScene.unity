@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 336767620}
   - component: {fileID: 336767619}
   - component: {fileID: 336767618}
+  - component: {fileID: 336767622}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -397,6 +398,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1431056509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336767622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336767617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TrackerSettings:
     BindingMode: 4
-    PositionDamping: {x: 0.17, y: 0.17, z: 0.17}
+    PositionDamping: {x: 0.07, y: 0.07, z: 0.07}
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
@@ -688,6 +701,7 @@ GameObject:
   - component: {fileID: 1398394874}
   - component: {fileID: 1398394873}
   - component: {fileID: 1398394872}
+  - component: {fileID: 1398394876}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -784,6 +798,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1431056509}
   m_LocalEulerAnglesHint: {x: 0, y: 34.508, z: 0}
+--- !u!114 &1398394876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398394871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1416787101
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +822,7 @@ GameObject:
   - component: {fileID: 1416787104}
   - component: {fileID: 1416787103}
   - component: {fileID: 1416787102}
+  - component: {fileID: 1416787106}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -892,6 +919,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1431056509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1416787106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416787101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1431056508
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +982,7 @@ GameObject:
   - component: {fileID: 1444020144}
   - component: {fileID: 1444020143}
   - component: {fileID: 1444020142}
+  - component: {fileID: 1444020146}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -1039,6 +1079,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1431056509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1444020146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444020141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1496493612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,9 +1238,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
-  m_Constraints: 112
-  m_CollisionDetection: 1
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &1663918545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1362,7 @@ GameObject:
   - component: {fileID: 1765234325}
   - component: {fileID: 1765234324}
   - component: {fileID: 1765234323}
+  - component: {fileID: 1765234327}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -1406,6 +1459,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1431056509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1765234327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765234322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1958738902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,6 +1483,7 @@ GameObject:
   - component: {fileID: 1958738906}
   - component: {fileID: 1958738905}
   - component: {fileID: 1958738904}
+  - component: {fileID: 1958738907}
   m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
@@ -1514,6 +1580,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958738902}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1958738907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958738902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2049280802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,6 +1604,7 @@ GameObject:
   - component: {fileID: 2049280806}
   - component: {fileID: 2049280805}
   - component: {fileID: 2049280804}
+  - component: {fileID: 2049280807}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -1622,6 +1701,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049280802}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2049280807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049280802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2132580742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,6 +1725,7 @@ GameObject:
   - component: {fileID: 2132580746}
   - component: {fileID: 2132580745}
   - component: {fileID: 2132580744}
+  - component: {fileID: 2132580747}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -1730,6 +1822,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132580742}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2132580747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132580742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25a497a3f65fe2409f7c4080b645057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
