@@ -14,7 +14,6 @@ public class Mover : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
-
     void Update() {
         MovePlayer();
         //compo.FollowOffset.y += 0.02f;
