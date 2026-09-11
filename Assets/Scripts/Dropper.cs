@@ -3,8 +3,12 @@ using UnityEngine;
 
 public class Dropper : MonoBehaviour
 {
+    [SerializeField] float timeToDrop = 3f; 
     void Update() {
-      float timeElapsed = Time.time;
-      Debug.Log(Time.time + " seconds has passed since the beginning of the game");
+        
+        if (Time.time > timeToDrop) {
+            Debug.Log("Dropped");
+        }
+      
    }
 }
