@@ -9,9 +9,15 @@ public class FlyAtPlayer : MonoBehaviour {
     Vector3 playerPosition;
 
     private void Start() {
+        
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;
-        //playerPosition = player.transform.position;
         direction = (player.position - transform.position).normalized;
+        //playerPosition = player.transform.position;
+        
+    }
+
+    private void Awake() {
+        gameObject.SetActive(false);
     }
 
     private void Update() {
@@ -19,6 +25,7 @@ public class FlyAtPlayer : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
+        
         if (other.TryGetComponent<IProjectileInterceptor>(out var interceptor))
         {
             interceptor.InterceptProjectile(gameObject);
